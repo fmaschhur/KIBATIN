@@ -1,0 +1,9 @@
+{
+  "codes": {
+    "gelb": "gelb",
+    "grün": "grün",
+    "orange": "orange",
+    "rot": "rot"
+  },
+  "source": "identity_fallback"
+}
