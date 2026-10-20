@@ -111,14 +111,3 @@ $WEIGHTS_ROOT/
 ```
 
 Deploy all three newly generated directories together.
-
-## Tests
-
-```bash
-uv run python -m unittest discover -s tests -v
-```
-
-The suite covers filtering and preprocessing, target metrics and loss
-scheduling, atomic export, strict API loading, and training/API parity with a
-tiny offline BERT fixture. It does not execute CUDA training or validate a full
-GPU training run.
