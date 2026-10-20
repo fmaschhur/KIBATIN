@@ -111,12 +111,6 @@ For compatibility, invalid options and caught input/inference failures return
 HTTP 200 with `{"error":"..."}`. Unknown paths and unsupported methods retain
 ordinary Flask 404/405 responses.
 
-## Tests
-
-```bash
-python -m unittest discover -s tests -v
-```
-
 ## Docker
 
 ```bash
